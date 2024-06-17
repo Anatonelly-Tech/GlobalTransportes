@@ -5,11 +5,7 @@ const Card = ({ image, title, text, last }) => {
   return (
     <div
       id='containerValores'
-      className={`group w-full lg:min-h-[55vh] min-h-screen h-auto px-5 py-10 ${
-        last == true
-          ? 'lg:border-y lg:border-x-0 border'
-          : 'lg:border-t lg:border-x-0 border'
-      } border-yellow-500 flex items-center lg:flex-row flex-col gap-10 lg:justify-center justify-start transition-all duration-500 lg:cursor-pointer`}
+      className={`group w-full lg:min-h-[55vh] min-h-screen h-auto px-5 py-10 lg:border-t lg:border-b-0 lg:border-x-0 border border-yellow-500 flex items-center lg:flex-row flex-col gap-10 lg:justify-center justify-start transition-all duration-500 lg:cursor-pointer`}
     >
       <div
         id='ImgValores'
