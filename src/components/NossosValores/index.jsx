@@ -1,8 +1,9 @@
+/* eslint-disable react/display-name */
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import Card from './Card';
 
-const index = () => {
+const index = React.forwardRef((props, ref) => {
   const textArray = [
     {
       title: 'Qualidade',
@@ -27,7 +28,11 @@ const index = () => {
   ];
 
   return (
-    <div className='w-full min-h-screen h-auto flex flex-col items-center justify-start md:gap-0 gap-10'>
+    <div
+      ref={ref}
+      {...props}
+      className='w-full min-h-screen h-auto flex flex-col items-center justify-start md:gap-0 gap-10'
+    >
       <Card
         image='https://ikmob.com/wp-content/uploads/2019/12/visao-empresa.jpg'
         title='Missão'
@@ -53,6 +58,6 @@ Para isso, ela conta com uma equipe altamente qualificada, tecnologia de ponta e
       />
     </div>
   );
-};
+});
 
 export default index;
