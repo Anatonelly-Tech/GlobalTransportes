@@ -5,8 +5,10 @@ import { RiArrowDownDoubleLine } from 'react-icons/ri';
 
 const index = () => {
   return (
-    <div className="py-20 w-full h-screen text-yellow-600 text-5xl font-bold flex flex-col items-center justify-around">
-      <h1 className="">Seja Bem Vindo a Global Transportes</h1>
+    <div className="py-20 w-full h-screen text-yellow-600 font-bold flex flex-col items-center justify-around">
+      <h1 className="lg:text-7xl md:text-6xl sm:text-5xl xs:text-4xl xxs:text-3xl text-center">
+        Seja Bem Vindo a Global Transportes
+      </h1>
       <img
         data-aos="zoom-in"
         data-aos-duration="1000"
