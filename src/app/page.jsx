@@ -5,6 +5,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import InicialScreen from '@/components/InicialScreen';
 import QuemSomos from '@/components/QuemSomos';
+import NossosValores from '@/components/NossosValores';
+import Footer from '@/components/Footer';
 //library
 //https://michalsnik.github.io/aos/
 
@@ -17,6 +19,8 @@ export default function Home() {
     <div className="max-w-screen w-full min-h-screen h-auto flex flex-col gap-20 items-center justify-start bg-global overflow-x-hidden ">
       <InicialScreen />
       <QuemSomos />
+      <NossosValores />
+      <Footer />
     </div>
   );
 }
