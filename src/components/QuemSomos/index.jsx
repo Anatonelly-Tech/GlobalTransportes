@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from './Card';
-
 const index = () => {
   return (
     <div
@@ -17,7 +16,7 @@ const index = () => {
           texto="A Global Transportes iniciou suas atividades em junho de 2019 na cidade de Betim-MG. Foi em meio à pandemia, onde o mundo vivia em um período de incertezas, que ela se consolidou."
           horientacao="esq"
         />
-
+        
         <Card
           titulo="Como surgiu?"
           texto="O insight para nossa mudança veio ao assistir um filme chamado Robôs, onde o personagem soldador fala uma simples frase mas que trouxe-me um grande impacto:
