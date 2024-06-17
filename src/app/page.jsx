@@ -7,6 +7,7 @@ import InicialScreen from '@/components/InicialScreen';
 import QuemSomos from '@/components/QuemSomos';
 import NossosValores from '@/components/NossosValores';
 import Footer from '@/components/Footer';
+import WhatsButton from '@/components/WhatsButton';
 //library
 //https://michalsnik.github.io/aos/
 
@@ -21,6 +22,7 @@ export default function Home() {
       <QuemSomos />
       <NossosValores />
       <Footer />
+      <WhatsButton />
     </div>
   );
 }

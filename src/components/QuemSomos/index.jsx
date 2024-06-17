@@ -8,7 +8,9 @@ const index = () => {
       style={{ backgroundAttachment: 'fixed' }}
     >
       <div className="w-full min-h-screen h-full bg-gradient-to-t from-[#120120] via-[#120120]/70 to-[#120120] flex flex-col items-center justify-start py-20 gap-24">
-        <h2 className="text-7xl text-white font-semibold">Quem Somos?</h2>
+        <h2 className="lg:text-7xl md:text-6xl sm:text-5xl xs:text-4xl xxs:text-3xl text-white font-semibold">
+          Quem Somos?
+        </h2>
 
         <Card
           titulo="Nossa História"
