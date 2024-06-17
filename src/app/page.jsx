@@ -4,6 +4,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import InicialScreen from '@/components/InicialScreen';
+import QuemSomos from '@/components/QuemSomos';
 //library
 //https://michalsnik.github.io/aos/
 
@@ -11,10 +12,11 @@ export default function Home() {
   useEffect(() => {
     AOS.init();
   }, []);
-
+  //0c0035
   return (
-    <div className="max-w-screen w-full min-h-screen h-auto flex flex-col gap-96 items-center justify-start bg-[#120120]">
+    <div className="max-w-screen w-full min-h-screen h-auto flex flex-col gap-20 items-center justify-start bg-global overflow-x-hidden ">
       <InicialScreen />
+      <QuemSomos />
     </div>
   );
 }
