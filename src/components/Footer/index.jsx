@@ -1,4 +1,3 @@
-/* eslint-disable react/display-name */
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
@@ -6,13 +5,9 @@ import React from 'react';
 import { FaMapPin, FaPhoneAlt } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
-const index = React.forwardRef((props, ref) => {
+const index = () => {
   return (
-    <div
-      ref={ref}
-      {...props}
-      className='xxs:h-auto md:h-1/2 w-full bg-Anatonelly-Primary flex md:flex-row xxs:flex-col md:justify-between items-center p-5 xxs:pb-24 md:py-5 xxs:gap-10 border-t border-yellow-500'
-    >
+    <div className='xxs:h-auto md:h-1/2 w-full bg-Anatonelly-Primary flex md:flex-row xxs:flex-col md:justify-between items-center p-5 xxs:pb-24 md:py-5 xxs:gap-10 border-t border-yellow-500'>
       <div className=' flex items-center justify-center md:w-1/3 xxs:w-full'>
         <img
           draggable={false}
@@ -79,6 +74,6 @@ const index = React.forwardRef((props, ref) => {
       </div>
     </div>
   );
-});
+};
 
 export default index;
