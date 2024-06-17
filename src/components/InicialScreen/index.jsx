@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import { RiScrollToBottomLine } from 'react-icons/ri';
 import { RiArrowDownDoubleLine } from 'react-icons/ri';
