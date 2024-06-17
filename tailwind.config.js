@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        global: '#120120', // Simplificado
+        global: '#120120', 
+        globalHover: '#0B0114', 
       },
       screens: {
         xxs: '280px',
