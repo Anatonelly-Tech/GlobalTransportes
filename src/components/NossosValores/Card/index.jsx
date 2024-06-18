@@ -9,18 +9,18 @@ const Card = ({ image, title, text, last }) => {
     >
       <div
         id='ImgValores'
-        className='child1 z-10 lg:absolute lg:group-hover:-translate-x-1/2  lg:w-auto w-2/3 flex items-center justify-center trantition-all duration-500'
+        className='child1 z-10 lg:absolute lg:group-hover:-translate-x-1/2  lg:w-auto w-2/3 flex items-center justify-center trantition-all duration-1000'
       >
         <img
           id='imgDiv'
           src={image}
           alt={title}
-          className='lg:h-[40vh] rounded'
+          className='lg:h-[40vh] rounded border-yellow-500 border-2'
         />
       </div>
       <div
         id='TitleAndText'
-        className='child2 min-h-[50vh] lg:w-1/5 w-full text-center lg:p-0 p-10 lg:group-hover:translate-x-full flex flex-col justify-start items-center gap-5 text-white transition-all duration-500'
+        className='child2 min-h-[50vh] lg:w-1/4 w-full text-center lg:p-0 p-10 lg:group-hover:translate-x-full lg:group-hover:border lg:group-hover:rounded-lg lg:group-hover:px-5 lg:group-hover:border-yellow-400 lg:group-hover:justify-center flex flex-col justify-start items-center gap-5 text-white transition-all duration-1000'
       >
         <h2 className='text-2xl font-bold w-full'>{title}</h2>
         {Array.isArray(text) ? (
