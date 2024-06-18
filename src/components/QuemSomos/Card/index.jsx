@@ -15,23 +15,23 @@ const index = ({ titulo, texto, horientacao, lista }) => {
   };
   return (
     <div
-      data-aos-offset="100"
+      data-aos-offset='100'
       data-aos={`fade-${horientacao === 'esq' ? 'right' : 'left'}`}
       className={`flex ${
         horientacao === 'esq' ? '' : 'flex-row-reverse'
       } items-center justify-between w-full h-auto lg:px-52 px-12 `}
     >
-      <div className="flex flex-col gap-5 w-auto lg:max-w-[40%] h-full">
-        <div className="text-white  bg-global shadow-md drop-shadow-md border border-yellow-600 flex flex-col items-start justify-start gap-3 p-10 rounded-md hover:scale-110 transition-all duration-300">
-          <p className="text-3xl font-semibold">{titulo}</p>
+      <div className='flex flex-col gap-5 w-auto lg:max-w-[40%] h-full'>
+        <div className='text-white  bg-global shadow-md drop-shadow-md border border-yellow-600 flex flex-col items-start justify-start gap-3 p-10 rounded-md lg:hover:scale-110 transition-all duration-300'>
+          <p className='text-3xl font-semibold'>{titulo}</p>
           {lista ? (
-            <ul className="list-disc flex flex-col pl-5 text-lg font-light">
+            <ul className='list-disc flex flex-col pl-5 text-lg font-light'>
               {lista.map((item, index) => (
                 <li key={index}>{item}</li>
               ))}
             </ul>
           ) : (
-            <p className="text-xl font-light">
+            <p className='text-xl font-light'>
               {breakLineAtSequence(texto, '*/')}
             </p>
           )}
@@ -39,7 +39,7 @@ const index = ({ titulo, texto, horientacao, lista }) => {
         <Button />
       </div>
 
-      <div className="w-2/3 lg:flex hidden "></div>
+      <div className='w-2/3 lg:flex hidden '></div>
     </div>
   );
 };
