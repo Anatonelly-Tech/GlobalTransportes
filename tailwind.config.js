@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        global: '#120120', 
-        globalHover: '#0B0114', 
+        global: '#120120',
+        globalHover: '#0B0114',
       },
       screens: {
         xxs: '280px',
@@ -24,7 +24,7 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'quemSomos':
+        quemSomos:
           'url(https://th.bing.com/th/id/R.b63720d6bb6f956e1af673d457e526a1?rik=WisjidSXmDd6uQ&pid=ImgRaw&r=0)', // Movido para a seção `backgroundImage`
       },
       dropShadow: {
