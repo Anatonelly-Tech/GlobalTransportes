@@ -12,14 +12,14 @@ const index = () => {
         src='./GlobalTransportes.svg'
         alt='Global Transportes Logo'
       />
-        <h1 className='lg:text-6xl md:text-5xl sm:text-4xl xs:text-3xl xxs:text-2xl text-center'>
+        <h1 className='px-10 lg:text-6xl md:text-5xl sm:text-4xl xs:text-3xl xxs:text-2xl text-center'>
           Tenha controle total da localização da sua carga, com 30% a menos de
           custo do mercado
       </h1>
       
       <Button />
 
-      <div className='animate-bounce text-center xxs:hidden md:flex flex-col items-center justify-center gap-2 absolute mt-10 top-3/4'>
+      <div className='animate-bounce text-center xs:hidden sm:flex flex-col items-center justify-center gap-2 absolute mt-10 bottom-0'>
         <RiScrollToBottomLine className='text-4xl' />
         <RiArrowDownDoubleLine className='text-4xl' />
       </div>
